@@ -4,7 +4,8 @@
   "description": "ts without compile",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest",
+    "start": "tsc"
   },
   "author": "tt",
   "license": "ISC",
