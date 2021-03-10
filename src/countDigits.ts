@@ -1,5 +1,5 @@
-export const countDigits = (str: any) : number=> {
-  let count = 0;
+export const countDigits = (str: string) : number=> {
+  let count: number = 0;
   for (let c of str) {
     if (/[0-9]/.test(c)) ++count;
   }
