@@ -1,4 +1,4 @@
 export const firstWord = (str: any) : string => {
-  let result = str.match(/([a-z']+)/i)[0];
+  let result: string = str.match(/([a-z']+)/i)[0];
   return result;
 }
