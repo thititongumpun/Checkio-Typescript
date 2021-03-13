@@ -1,4 +1,4 @@
-import {sumNumbers} from '../src/sumNumbers';
+import {sumNumbers} from '../src/sumNumber';
 
 describe('test fn sumNumbers', () => {
   test('check sumNumbers return', () => {
